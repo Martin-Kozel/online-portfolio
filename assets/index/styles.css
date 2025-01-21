@@ -73,13 +73,23 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    padding-left: 240px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
     footer p {
-        margin: 5px 0;
+        display: flex;
+        align-items: center; /* Vertically centers the items */
+    }
+
+    footer .contact-email {
+        margin-right: 200px; /* Adjust this value to control space after email */
+    }
+
+    footer .phone-number {
+        margin-right: 200px; /* Adjust this value to control space between the phone numbers */
     }
 
 @media (max-width: 768px) {
